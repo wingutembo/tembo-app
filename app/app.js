@@ -2,7 +2,7 @@ import Ember from 'ember';
 import Resolver from 'ember/resolver';
 import loadInitializers from 'ember/load-initializers';
 import config from './config/environment';
-import inheritance from './inheritance';
+// import inheritance from './inheritance';
 
 var App;
 
@@ -15,5 +15,5 @@ App = Ember.Application.extend({
 });
 
 loadInitializers(App, config.modulePrefix);
-inheritance();
+// inheritance();
 export default App;
